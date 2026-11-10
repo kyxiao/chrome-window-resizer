@@ -1,0 +1,20 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Window Resizer",
+  "version": "1.0.0",
+  "description": "快速设置浏览器窗口宽高，模拟不同电脑屏幕尺寸",
+  "permissions": ["windows", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
